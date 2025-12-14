@@ -1,0 +1,62 @@
+@import url('/home/edvinest/.cache/wal/colors-waybar.css');
+
+/* --- General Window --- */
+#window {
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin: 0;
+    border: 2px solid @color3;
+    color: @foreground;
+}
+
+/* --- Search Bar --- */
+#input {
+    margin: 5px;
+}
+
+entry {
+    border-radius: 8px;
+    background-color: rgba(30, 30, 30, 0.85);
+    color: #ffffff;
+    border: 1px solid rgba(100, 100, 100, 0.7);
+    padding: 5px;
+}
+
+/* --- Scrollable List Container --- */
+#scroll {
+}
+
+/* --- Entries Container --- */
+#inner-box {
+    padding: 5px;                /* padding inside scroll container */
+}
+
+/* --- Individual Entries --- */
+#entry {
+    background-color: transparent;
+    color: #dcdcdc;
+    border-radius: 10px;         /* rounded corners for entry */
+    padding: 5px 10px;           /* space inside entry */
+    margin: 3px 0;               /* space between entries */
+}
+
+/* --- Images in Entries --- */
+#img {
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+/* --- Unselected Entries (optional styling) --- */
+#entry:not(:selected) {
+    background-color: transparent;
+    color: #dcdcdc;
+}
+
+/* --- Selected / Hovered Entry --- */
+#entry:selected {
+    background-color: rgba(60, 120, 180, 0.5); /* slightly transparent highlight */
+    color: #ffffff;
+    border-radius: 10px;        /* rounded selection */
+    padding: 5px 10px;
+}

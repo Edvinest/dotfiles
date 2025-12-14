@@ -1,0 +1,13 @@
+[settings]
+prompt = Run:           # Set prompt text
+gtk-dark = true
+allow_images = true
+width = 30%
+hide_scroll = true
+
+[search]
+insensitive = true  # Case-insensitive search
+sort_order = alphabetical  # Alphabetical sorting
+
+[wofi]
+lines = 8
